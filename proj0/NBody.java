@@ -13,7 +13,6 @@ public class NBody {
         In in = new In(file_name);
         int num_planets = in.readInt();
         double radius = in.readDouble();
-        System.out.println("radius: " + radius);
         Planet[] plant_array = new Planet[num_planets];
         for (int i = 0; i < num_planets; i++) {
             double xxpos = in.readDouble();
