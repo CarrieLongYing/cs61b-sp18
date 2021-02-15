@@ -16,6 +16,7 @@ public class TestReadPlanets {
          * a certain method static! */
         Planet[] actualOutput = NBody.readPlanets(planetsTxtPath);
 
+
         /* Check the simple things: */
         if (actualOutput == null) {
             return "FAIL: readPlanets(); null output";
